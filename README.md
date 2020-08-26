@@ -1,4 +1,4 @@
-# kubernetes-scalling-with-cloudwatch-agent (Both hap [pod] and node scalling)
+# kubernetes-scalling-with-cloudwatch-agent (Both hap [pod] and node scalling) (Memory base)
   
   
  #Step 1:
