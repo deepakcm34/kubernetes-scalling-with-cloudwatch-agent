@@ -99,7 +99,7 @@ Test the metrics:
     
 # Deploy a test deployment for hpa testing
 
-    kubectl apply -f php-apache.yaml
+    kubectl apply -f php.apache.yaml
     
 # Deploy hpa (Horizontal Pod Autoscaler)
 
