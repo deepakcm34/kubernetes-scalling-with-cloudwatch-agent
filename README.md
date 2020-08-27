@@ -143,7 +143,7 @@ Once the application and hpa is deployed, we can go for the cloudwatch agent dep
     
 #------------------------------------------------------------------------------------------------------------------
 
-Once everything is done, check if the Metrics is showing in the AWS cloudwatch :
+Once everything is done, check if the Metrics is showing in the AWS cloudwatch (It might get some delay for detecting the metrics from the agent for the first time) :
 
     Login to AWS >> Cloudwatch >> Metrics >> All metrics >> CWAgent >> AutoScalingGroupName 
     
