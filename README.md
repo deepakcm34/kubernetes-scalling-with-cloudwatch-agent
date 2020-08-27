@@ -45,6 +45,13 @@
             }
           ]
 
+  [III] Setup the scale time period:
+  
+        kubeControllerManager:
+          horizontalPodAutoscalerDownscaleDelay: 3m0s
+          horizontalPodAutoscalerSyncPeriod: 15s
+          horizontalPodAutoscalerUpscaleDelay: 2m0s
+          horizontalPodAutoscalerUseRestClients: true
 
 2: Edit node instances group (For node scalling):
 
